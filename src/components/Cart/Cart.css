@@ -1,0 +1,54 @@
+.card-wrapper {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(46, 34, 34, 0.5);
+  left: calc(100% - 320px) !important;
+  min-width: 300px;
+  padding: 10px;
+  position: fixed;
+  top: 60px;
+  z-index: 10;
+}
+.card-wrapper svg {
+  cursor: pointer;
+  float: right;
+  height: auto;
+  width: 20px;
+}
+.card-innerWrapper {
+  height: max-content;
+  max-height: 50vh;
+  text-align: center;
+  overflow-y: auto;
+}
+.card-innerWrapper h3 {
+  font-size: 97%;
+  font-weight: 300;
+}
+.card-innerWrapper img {
+  padding-top: 25px;
+}
+.subTotal {
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 8px;
+}
+.totalDiscount {
+  display: flex;
+  font-weight: 3400;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 8px 3px;
+}
+.messageDiscount {
+  color: gray;
+  font-weight: 500;
+  font-size: 14px;
+}
+.messageSuggest {
+  color: #0071ce;
+  font-weight: 500;
+  font-size: 12px;
+}
